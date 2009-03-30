@@ -1,3 +1,10 @@
+== 1.2.6 (In Git)
+
+* 2 minor enhancement:
+  * Set the treetop rubyforge project in gemspec
+  * Deprecated autorequire no longer used in gemspec
+  * Polyglot is no longer loaded automatically - it must be done explicitly with require 'treetop/polyglot'
+
 == 1.2.5 2009-03-10
 
 * 1 minor enhancement:

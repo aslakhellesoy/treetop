@@ -7,12 +7,12 @@ $gemspec = Gem::Specification.new do |s|
   s.homepage = "http://functionalform.blogspot.com"
   s.platform = Gem::Platform::RUBY
   s.summary = "A Ruby-based text parsing and interpretation DSL"
-  s.files = ["README", "Rakefile", "{test,lib,bin,doc,examples}/**/*"].map{|p| Dir[p]}.flatten
+  s.files = ["README", "History.txt", "Rakefile", "{test,lib,bin,doc,examples}/**/*"].map{|p| Dir[p]}.flatten
   s.bindir = "bin"
   s.executables = ["tt"]
+  s.rubyforge_project = "treetop"
   s.require_path = "lib"
-  s.autorequire = "treetop"
   s.has_rdoc = false
-  s.add_dependency "polyglot"
+  s.add_dependency "polyglot", ">= 0.2.5"
 end
 
